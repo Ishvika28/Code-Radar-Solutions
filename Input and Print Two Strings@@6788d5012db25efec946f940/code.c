@@ -5,5 +5,5 @@ int main(){
     scanf("%99s",&str1);
     scanf("%99s",&str2);
     printF("You entered: %s",str1);
-    printf(" and %s",str2)
+    printf(" and %s",str2);
 }
