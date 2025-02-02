@@ -6,5 +6,4 @@ int main(){
     scanf("%99s", str2);
     printF("You entered: %s",str1);
     printf(" and %s",str2);
-    return 0;
 }
