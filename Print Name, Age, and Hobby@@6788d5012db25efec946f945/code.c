@@ -4,7 +4,7 @@ int main(){
     int age;
     char hobby[100];
     scanf("%99s""%d""%99s",nam age hobby);
-    printf("Name: %s/n",name)
+    printf("Name: %99s/n",name)
     printf("Age: %d/n",age);
-    printf("Hobby: %s",hobby);
+    printf("Hobby: %99s",hobby);
 }
