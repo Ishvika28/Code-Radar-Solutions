@@ -1,11 +1,6 @@
 #include<stdio.h>
 int main(){
-    int num;
+    int num, n;
     scanf("%d", &num);
-    if (num^1&&num|1){
-        printf("Set");
-    }
-    else{
-        printf("Not Set");
-    }
+    n
 }
