@@ -17,6 +17,7 @@ int main(){
         printf("%.0f", result);
         break;
         case '/':
+        num2 != 0;
         result = num1/num2;
         printf("%.0f", result);
         break;
