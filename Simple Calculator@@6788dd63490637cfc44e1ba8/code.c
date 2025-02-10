@@ -1,24 +1,24 @@
 #include<stdio.h>
 int main(){
-    int num1, num2, result;
+    float num1, num2, result;
     char ch;
-    scanf("%d %d %c", &num1, &num2, &ch);
+    scanf("%f %f %c", &num1, &num2, &ch);
     switch (ch){
         case '+':
         result = num1+num2;
-        printf("%d", result);
+        printf("%.0f", result);
         break;
         case '-':
         result = num1-num2;
-        printf("%d", result);
+        printf("%.0f", result);
         break;
         case '*':
         result = num1*num2;
-        printf("%d", result);
+        printf("%.0f", result);
         break;
         case '/':
         result = num1/num2;
-        printf("%d", result);
+        printf("%.0f", result);
         break;
         default:
         printf("error");
