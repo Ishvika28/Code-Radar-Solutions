@@ -8,5 +8,19 @@ int main(){
         result = num1+num2;
         printf("%d", result);
         break;
+        case '-':
+        result = num1-num2;
+        printf("%d", result);
+        break;
+        case '*':
+        result = num1*num2;
+        printf("%d", result);
+        break;
+        case '/':
+        printf("%d", result);
+        break;
+        default:
+        printf("error");
+        break;
     }
 }
