@@ -7,5 +7,6 @@ int main(){
     switch (ch){
         case '+':
         printf("%d", result);
+        break;
     }
 }
