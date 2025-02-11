@@ -1,8 +1,10 @@
 #include<stdio.h>
 int main(){
-    int n,j;
+    int n,j, i;
     scanf("%d", &n);
     for (j=1; j<=n; j++){
-        printf("*\n");
+        for (i=1; i<j; i++){
+            printf("*");
+        }
     }
 }
