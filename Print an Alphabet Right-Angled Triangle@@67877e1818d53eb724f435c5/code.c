@@ -6,7 +6,6 @@ int main(){
     for (i=1; i<=n; i++){
         for (j=1; j<=i; j++){
             j=65;
-            j++;
             printf("%c ", j);
         }
         printf("\n");
