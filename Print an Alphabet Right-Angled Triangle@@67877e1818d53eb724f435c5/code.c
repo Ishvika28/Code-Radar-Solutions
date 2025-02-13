@@ -5,8 +5,9 @@ int main(){
     scanf("%d", &n);
     for (i=1; i<=n; i++){
         for (j=1; j<=i; j++){
-            j=65;
+            j=+65;
             printf("%c ", j);
+            j=+1;
         }
         printf("\n");
     }
