@@ -1,7 +1,7 @@
 #include<stdio.h>
 int main(){
     int n, num;
-    scanf("%d", &n);
-    num = n & (1<<n);
+    scanf("%d %d", &k, &n);
+    num = k >> n-1;
     printf("%d", num);
 }
