@@ -2,8 +2,11 @@
 int main(){
     int num, n;
     scanf("%d", &num);
-    if (n>1){
-        n= num >>= 1;
-        printf("%d", num);
+    n= num >>= 1;
+    if (n==0){
+            printf("Set");
+    }
+    else{
+        printf("Not Set");
     }
 }
