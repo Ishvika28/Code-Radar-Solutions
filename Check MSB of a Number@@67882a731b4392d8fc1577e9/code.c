@@ -1,9 +1,14 @@
 #include<stdio.h>
 int main(){
-    int num, n;
+    int num;
     scanf("%d", &num);
     while (num>1){
         num >>= 1;
     }
-    return num; 
+    if (num==1){
+        printf("Set");
+    } 
+    else{
+        printf("Not Set");
+    }
 }
