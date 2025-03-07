@@ -2,6 +2,6 @@
 int main(){
     int n, num;
     scanf("%d", &n);
-    num = n & (1<<(n-1));
+    num = n & (1<<n);
     printf("%d", num);
 }
